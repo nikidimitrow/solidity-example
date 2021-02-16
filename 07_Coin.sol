@@ -3,7 +3,8 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract Coin{
-
+  //declares a state variable of type address that is publicly accessible
+  //address type is a 160-bit value that does not allow any arithmetic operations
   address public minter;
   mapping (address => uint) public balances;
     
