@@ -2,7 +2,7 @@ pragma solidity^0.4.9;
 
 contract HelloWorld{
     
-    address owner;git 
+    address owner;
     
     function HelloWorld(){
         owner = msg.sender;
